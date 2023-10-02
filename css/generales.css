@@ -3,10 +3,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana;
 }
 
 body {
-    font-family: Verdana;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -14,12 +14,13 @@ body {
 
 /*header*/
 header {
+    z-index: 1;
     padding: 0px;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 1px 10px;
+    box-shadow: 0px .0625rem .625rem;
     background-color: whitesmoke;
 }
 
@@ -86,7 +87,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: auto;
-    box-shadow: 0px -1px 10px;
+    box-shadow: 0px -0.0625rem .625rem;
 }
 
 footer h2 {
@@ -129,21 +130,25 @@ footer img {
 .proyectos {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #FF8A00;
+    min-height: 110vh;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 3.125rem;
     max-width: 80vw;
     min-height: 90vh;
 }
 
 .container h1{
-    margin: 20px;
-    font-size: 40px;
-    text-shadow: 3px 3px 0px white;
+    margin-top: 4.375rem;
+    margin-bottom: 1.875rem;
+    font-size: 2.5rem;
+    text-shadow: .1875rem .1875rem 0px white;
 }
 
 .cards {
@@ -156,12 +161,24 @@ footer img {
     max-width: 18.75rem;
     max-height: 31.25rem;
     box-shadow: 0px 0px 20px;
-    padding: 10px;
-    margin: 10px 20px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    padding: .625rem;
+    margin: 2.5rem 6.25rem;
     background-color: whitesmoke;
+}
+
+/*seccion de habilidades*/
+
+/*seccion de educacion*/
+
+
+
+/*seccion de contacto*/
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+#mensaje{
+    resize: none;
 }
