@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/generales.css">
     <title>Document</title>
 </head>
@@ -11,28 +13,33 @@
 <body>
     <!-- Encabezado -->
     <header>
-        <!-- Logo -->
-        <h1 class="logo">Boris Beker</h1>
-
         <!-- Menú -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Sobre Mi</a>
-                </li>
-                <li>
-                    <a href="./proyectos.html">Proyectos</a>
-                </li>
-                <li>
-                    <a href="./habilidades.html">Habilidades</a>
-                </li>
-                <li>
-                    <a href="#">Educación</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-gris">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><h1>Boris Beker</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./habilidades.html">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Educación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -42,10 +49,13 @@
         <div class="grid">
             <div class="caja-educacion c1">
                 <div class="c1contenido">
-                    <img src="" alt="imagen referencial">
-                    <h2>Título</h2>
-                    <p>Descripción</p>
-                    <p>Fecha</p>
+                    <img src="../assets/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="imagen referencial">
+                    <h2>Licenciatura en Informática</h2>
+                    <p>Universidad empresarial Siglo21</p>
+                    <p>La Licenciatura en Informática forma profesionistas capaces de crear, administrar y mantener
+                        servicios y sistemas de información integrada y eficiente que faciliten la toma de decisiones y
+                        agilicen las operaciones de una organización./p>
+                    <p>2021/(en curso)</p>
                 </div>
             </div>
             <div class="caja-educacion c2">
@@ -108,6 +118,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
