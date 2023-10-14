@@ -1,0 +1,23 @@
+.grid {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80vw;
+    margin: 10% auto;
+    box-shadow: 0px .0625rem 1.25rem;
+
+    .caja-educacion {
+        background-color: #FF8A00;
+    }
+    .c1 {
+        display: flex;
+        justify-content: center;
+        grid-column: 1/4;
+
+        .c1contenido img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
