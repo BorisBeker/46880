@@ -6,7 +6,7 @@
     h1 {
         margin-top: 4.375rem;
         font-size: 2.5rem;
-        text-shadow: .1875rem .1875rem 0px gray;
+        text-shadow: .1875rem .1875rem 0px $colorCuatro;
     }
 
     .contenedor-habilidades {
@@ -16,7 +16,7 @@
         .habilidad {
             border: solid;
             border-width: thin;
-            border-color: #FF8A00;
+            border-color: $colorUno;
             border-radius: 1.25rem;
             -webkit-border-radius: 1.25rem;
             -moz-border-radius: 1.25rem;

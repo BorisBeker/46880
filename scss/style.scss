@@ -1,5 +1,13 @@
+//reset
 @import "base/reset";
 
+//colores
+@import "base/colores";
+
+//fuentes
+@import "base/fonts";
+
+//contenido
 @import "layout/body";
 @import "layout/header";
 @import "layout/main";
@@ -10,49 +18,9 @@
 @import "layout/educacion";
 
 // Media queries
-@media (max-width: 425px) {
-    // Main
-    main {
-        flex-direction: column;
+@import "layout/media/media1024";
+@import "layout/media/media425";
+@import "layout/media/media375";
+@import "layout/media/media320";
 
-        .datos {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-left: 0;
-            min-width: 80vw;
 
-            p {
-                margin-top: .625rem;
-                text-align: center;
-            }
-
-            img {
-                margin: 1.5625rem;
-                max-width: 70vw;
-            }
-        }
-    }
-
-    footer{
-        .redes_sociales {
-            justify-content: start;
-        }
-    }
-    
-}
-
-@media (max-width: 375px) {
-    // Main
-    .datos h1,
-    .datos h2 {
-        text-align: center;
-    }
-}
-
-@media (max-width: 320px) {
-    // Footer
-    footer h2 {
-        font-size: 1.25rem;
-    }
-}

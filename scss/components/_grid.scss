@@ -5,16 +5,14 @@
     width: 80vw;
     margin: 10% auto;
     box-shadow: 0px .0625rem 1.25rem;
-
     .caja-educacion {
-        background-color: #FF8A00;
+        background-color: $colorUno;
     }
     .c1 {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         grid-column: 1/4;
-
-        .c1contenido img {
+        img {
             height: 25rem;
             width: 100%;
             object-fit: cover;

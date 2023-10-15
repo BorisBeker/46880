@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   max-width: 100vw;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
   body p {
     font-family: Verdana; }
 
@@ -90,7 +90,7 @@ footer {
       margin-top: 4.375rem;
       margin-bottom: 1.875rem;
       font-size: 2.5rem;
-      text-shadow: .1875rem .1875rem 0px white; }
+      text-shadow: 0.1875rem 0.1875rem 0px white; }
     .proyectos .container .cards {
       display: flex;
       justify-content: center;
@@ -115,7 +115,7 @@ footer {
   .seccion-habilidades h1 {
     margin-top: 4.375rem;
     font-size: 2.5rem;
-    text-shadow: .1875rem .1875rem 0px gray; }
+    text-shadow: 0.1875rem 0.1875rem 0px grey; }
   .seccion-habilidades .contenedor-habilidades {
     width: 100%;
     padding: 1.25rem; }
@@ -143,7 +143,7 @@ footer {
   .seccion-educacion h1 {
     margin-top: 4.375rem;
     font-size: 2.5rem;
-    text-shadow: .1875rem .1875rem 0px gray; }
+    text-shadow: 0.1875rem 0.1875rem 0px grey; }
   .seccion-educacion .grid {
     min-height: 80vh;
     display: grid;
@@ -155,12 +155,18 @@ footer {
       background-color: #FF8A00; }
     .seccion-educacion .grid .c1 {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       grid-column: 1/4; }
-      .seccion-educacion .grid .c1 .c1contenido img {
+      .seccion-educacion .grid .c1 img {
         height: 25rem;
         width: 100%;
         object-fit: cover; }
+
+@media (max-width: 1024px) {
+  .proyectos .container {
+    max-width: 90vw; }
+    .proyectos .container .cards .card {
+      margin: 2.5rem 3.125rem; } }
 
 @media (max-width: 425px) {
   main {
@@ -177,6 +183,15 @@ footer {
       main .datos img {
         margin: 1.5625rem;
         max-width: 70vw; }
+  .proyectos .container {
+    max-width: 90vw; }
+    .proyectos .container .cards .card {
+      margin: 0;
+      margin-top: 3.125rem;
+      margin-bottom: 3.125rem;
+      width: 25rem;
+      min-height: 18.75rem;
+      max-height: none; }
   footer .redes_sociales {
     justify-content: start; } }
 

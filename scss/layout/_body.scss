@@ -3,8 +3,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     max-width: 100vw;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fuenteUno;
     p{
-        font-family: Verdana;
+        font-family: $fuenteDos;
     }
 }

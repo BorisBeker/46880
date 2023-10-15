@@ -1,5 +1,5 @@
 footer {
-    background-color: #FF8A00;
+    background-color: $colorUno;
     display: flex;
     justify-content: space-between;
     margin-top: auto;
@@ -19,7 +19,7 @@ footer {
             padding-left: .9375rem;
 
             a {
-                color: black;
+                color: $colorCinco;
                 text-decoration: none;
             }
         }
