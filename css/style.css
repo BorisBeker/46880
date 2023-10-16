@@ -3,6 +3,26 @@
   margin: 0;
   box-sizing: border-box; }
 
+.ucard, .proyectos .container .cards .card {
+  max-width: 18.75rem;
+  max-height: 31.25rem;
+  box-shadow: 0px 0px 20px;
+  padding: .625rem;
+  margin: 2.5rem 6.25rem;
+  background-color: whitesmoke;
+  background-image: linear-gradient(to right, white 50%, whitesmoke 50%);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: left;
+  cursor: pointer;
+  transition: background-position 0.5s ease; }
+  .ucard:hover, .proyectos .container .cards .card:hover {
+    background-position: right; }
+
+.subtitulo, .proyectos .container h1, .seccion-habilidades h1, .seccion-educacion h1 {
+  margin-top: 4.375rem;
+  font-size: 2.5rem; }
+
 body {
   display: flex;
   flex-direction: column;
@@ -89,19 +109,12 @@ footer {
     .proyectos .container h1 {
       margin-top: 4.375rem;
       margin-bottom: 1.875rem;
-      font-size: 2.5rem;
       text-shadow: 0.1875rem 0.1875rem 0px white; }
     .proyectos .container .cards {
       display: flex;
       justify-content: center;
       flex-wrap: wrap; }
       .proyectos .container .cards .card {
-        max-width: 18.75rem;
-        max-height: 31.25rem;
-        box-shadow: 0px 0px 20px;
-        padding: .625rem;
-        margin: 2.5rem 6.25rem;
-        background-color: whitesmoke;
         border-radius: 0;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
@@ -113,8 +126,6 @@ footer {
   flex-direction: column;
   align-items: center; }
   .seccion-habilidades h1 {
-    margin-top: 4.375rem;
-    font-size: 2.5rem;
     text-shadow: 0.1875rem 0.1875rem 0px grey; }
   .seccion-habilidades .contenedor-habilidades {
     width: 100%;
@@ -142,7 +153,6 @@ footer {
   align-items: center; }
   .seccion-educacion h1 {
     margin-top: 4.375rem;
-    font-size: 2.5rem;
     text-shadow: 0.1875rem 0.1875rem 0px grey; }
   .seccion-educacion .grid {
     min-height: 80vh;
