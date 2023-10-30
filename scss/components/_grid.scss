@@ -1,7 +1,8 @@
+@import "../utilities/mixins";
+
 .grid {
     min-height: 80vh;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    @include mixinGrid();
     width: 80vw;
     margin: 10% auto;
     box-shadow: 0px .0625rem 1.25rem;
