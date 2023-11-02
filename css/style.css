@@ -171,6 +171,8 @@ footer {
         height: 25rem;
         width: 100%;
         object-fit: cover; }
+    .seccion-educacion .grid .contenido-de-cajas {
+      margin: 1.875rem; }
 
 @media (max-width: 1024px) {
   .proyectos .container {
@@ -202,14 +204,22 @@ footer {
       width: 25rem;
       min-height: 18.75rem;
       max-height: none; }
+  .seccion-educacion .grid {
+    display: flex;
+    flex-direction: column; }
   footer .redes_sociales {
     justify-content: start; } }
 
 @media (max-width: 375px) {
   .datos h1,
   .datos h2 {
-    text-align: center; } }
+    text-align: center; }
+  .seccion-habilidades img {
+    object-fit: cover;
+    max-width: 50vw; } }
 
 @media (max-width: 320px) {
   footer h2 {
-    font-size: 1.25rem; } }
+    font-size: 1.25rem; }
+  .seccion-educacion .c1 img {
+    display: none; } }

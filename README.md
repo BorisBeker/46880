@@ -5,3 +5,11 @@
 - html
 - css
 - bootstrap
+- sass
+
+## SECCIONES
+- SOBRE MI
+- PROYECTOS
+- HABILIDADES
+- EDUCACION
+- CONTACTO

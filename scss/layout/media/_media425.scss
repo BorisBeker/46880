@@ -39,6 +39,13 @@
         }
     }
     
+    //educacion
+    .seccion-educacion{
+        .grid{
+            display: flex;
+            flex-direction: column;
+        }
+    }
 
     footer{
         .redes_sociales {
