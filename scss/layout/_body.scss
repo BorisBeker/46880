@@ -3,8 +3,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     max-width: 100vw;
-    font-family: $fuenteUno;
+    font-family: map-get($fuentes, "fuenteUno" );
     p{
-        font-family: $fuenteDos;
+        font-family: map-get($fuentes, "fuenteDos" );
     }
 }
